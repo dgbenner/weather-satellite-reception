@@ -24,10 +24,10 @@ Typical coverage: 2-3 visible passes per day per satellite over Minneapolis-St. 
 
 ## Technical Details
 
-- **Image Resolution:** 1 km/pixel
+- **Image Resolution:** 0.6 miles/pixel
 - **Transmission Protocol:** LRPT (Low Rate Picture Transmission)
 - **Spectral Bands:** 3 channels (visible, near-infrared, infrared)
-- **Ground Swath:** ~2800 km coverage width
+- **Ground Swath:** ~1,740 miles coverage width
 
 ## Workflow
 
@@ -77,7 +77,7 @@ Check the [live gallery](https://your-github-username.github.io/meteor-highland-
 Highland Park, St. Paul, Minnesota
 - Latitude: 44.96°N
 - Longitude: 93.18°W  
-- Elevation: ~260m
+- Elevation: ~850 feet
 
 ---
 
