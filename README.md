@@ -2,7 +2,7 @@
 
 Live weather satellite imagery captured from Highland Park, St. Paul, Minnesota.
 
-**Live Site:** [https://your-github-username.github.io/meteor-highland-park](https://your-github-username.github.io/meteor-highland-park)
+**Live Site:**  https://dgbenner.github.io/weather-satellite-reception/
 
 ## What This Is
 
