@@ -139,6 +139,64 @@ body {
     opacity: 0.9;
 }
 
+/* Placeholder overlay */
+.satellite-image a {
+    position: relative;
+}
+
+.placeholder-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 16px;
+    padding: 40px 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+}
+
+.placeholder-overlay .placeholder-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.placeholder-overlay .placeholder-title {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.placeholder-overlay .placeholder-dimensions {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 10px;
+}
+
+.placeholder-overlay .placeholder-resolution {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+}
+
+.placeholder-overlay .placeholder-desc {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
 /* Maps Sidebar */
 .maps {
     display: flex;
